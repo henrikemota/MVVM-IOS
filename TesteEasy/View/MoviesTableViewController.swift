@@ -32,4 +32,16 @@ class MoviesTableViewController: UITableViewController {
         
         return cell
     }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print(indexPath.row)
+        let destination = DetailsMovieViewController() // Your destination
+        navigationController?.pushViewController(destination, animated: true)
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath.row)
+        let destination = DetailsMovieViewController() // Your destination
+        navigationController?.pushViewController(destination, animated: true)
+    }
 }

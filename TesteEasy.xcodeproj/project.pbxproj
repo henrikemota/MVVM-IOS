@@ -21,6 +21,8 @@
 		BE8AB33F22163D1D00F12B93 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AB33E22163D1D00F12B93 /* MovieService.swift */; };
 		BE8AB343221677B200F12B93 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AB342221677B200F12B93 /* MovieResponse.swift */; };
 		BE8AB345221677E100F12B93 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AB344221677E100F12B93 /* Movie.swift */; };
+		BE8AB34A2216E32900F12B93 /* DetailsMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AB3482216E32900F12B93 /* DetailsMovieViewController.swift */; };
+		BE8AB34B2216E32900F12B93 /* DetailsMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8AB3492216E32900F12B93 /* DetailsMovieViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		BE8AB33E22163D1D00F12B93 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		BE8AB342221677B200F12B93 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 		BE8AB344221677E100F12B93 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BE8AB3482216E32900F12B93 /* DetailsMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMovieViewController.swift; sourceTree = "<group>"; };
+		BE8AB3492216E32900F12B93 /* DetailsMovieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsMovieViewController.xib; sourceTree = "<group>"; };
 		E8CA055D2A5AF8C203D0C779 /* Pods-TesteEasyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteEasyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TesteEasyUITests/Pods-TesteEasyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,6 +191,8 @@
 		BE8AB3352216371300F12B93 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BE8AB3482216E32900F12B93 /* DetailsMovieViewController.swift */,
+				BE8AB3492216E32900F12B93 /* DetailsMovieViewController.xib */,
 				BE8AB3392216393200F12B93 /* MoviesTableViewController.swift */,
 			);
 			path = View;
@@ -317,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8AB34B2216E32900F12B93 /* DetailsMovieViewController.xib in Resources */,
 				BE8AB311221632A800F12B93 /* LaunchScreen.storyboard in Resources */,
 				BE8AB30E221632A800F12B93 /* Assets.xcassets in Resources */,
 				BE8AB30C221632A400F12B93 /* Main.storyboard in Resources */,
@@ -436,6 +443,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE8AB33A2216393200F12B93 /* MoviesTableViewController.swift in Sources */,
+				BE8AB34A2216E32900F12B93 /* DetailsMovieViewController.swift in Sources */,
 				BE8AB343221677B200F12B93 /* MovieResponse.swift in Sources */,
 				BE8AB345221677E100F12B93 /* Movie.swift in Sources */,
 				BE8AB307221632A400F12B93 /* AppDelegate.swift in Sources */,
